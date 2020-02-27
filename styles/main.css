@@ -11,17 +11,18 @@ body{
      background: rgb(173, 83, 83);
 }
 
-establecemos el tamanio de nuestro sitio web 
+/* establecemos el tamanio de nuestro sitio web el ancho a 960px de toda nuestra pagina y lo centramos*/
 .container{
      width: 960px;
      margin: 10px auto;   
      background: #7299FE; 
 }
+
+/* colocando el tamanio de altura nuestra seccion banner */
 .banner{
      height: 525px;
-     margin: 0px auto;
 }
-
+/* es el titulo de nuestra seccion banner con un tamanio de fuente, margenes para su ubicacion,tipo de letra, color de letra*/
 .codigo{
      margin-left: 6em;
      margin-top: 36px;
@@ -34,6 +35,7 @@ establecemos el tamanio de nuestro sitio web
      color: #FFFFFF;
 }
 
+/*dando forma al cuadro en el que va nuestro saludo*/
 .subtitulo{
      position: absolute;
      width: 340px;
@@ -51,11 +53,13 @@ establecemos el tamanio de nuestro sitio web
 
 /* habilidades */
 
+/* el alto de nuestro seccion skills */
 .skills{
-     height: 424px;
-     margin: 0px auto;   
+     height: 424px;  
      background: #7299FE; 
 }
+
+/* establecemos todos los h2 para de todas las secciones con los siguientes parametros tanto como centrado, tipo de texto, tamanio de texto, etc */
  h2{
      text-align: center;
      font-family: Roboto;
@@ -66,29 +70,29 @@ establecemos el tamanio de nuestro sitio web
      color: #FFFFFF;
      padding: 27px;
 }
+
+/* cada habilidad y su porcentaje tendra un tamanio es una cuadro que estaran separdo y puestos en forma lineal y consecutivos hacia abajo eso se hara en todas las habilidades*/
 .bar_title {
      margin-left: 104px;
      display: inline-flex;
      margin-bottom: 50px;
 }
 
+/*colocamos una linea color blanco con estas caracteristicas  */
 .bar{
      position: absolute;
      width: 364px;
      height: 17px;
-     /* margin-left: 104px; */
      margin-top: 30px;
-     /*left: 104px;
-     top: 650px; */
-     /* display: inline-flex; */
      background: white;
 }
 
+/* tamanio y color de la barra de color blanco para toda las habilidades */
 .bar_title h3{
      width: 300px;
      color: white;
 }
-
+/* en esta seccion colocamos el porcentaje que tenemos en todas las habilidades */
 .html{
      width: 268px;
      height: 17px;
@@ -135,15 +139,18 @@ establecemos el tamanio de nuestro sitio web
      height: 17px;
      background-color: black;
 }
-/* servicios */
 
+
+/*Nuestros servicios */
+
+
+/* color y tamanio de nuestra seccion de servicios */
 .servicios{
      background:#FB7171;
      height: 424px;
-     /* margin: 0px auto; */
-     position;
 }
 
+/* cada imagen y tesxto lo centramos  */
 .item{
      height: 70px;
      width: 250px;
@@ -152,6 +159,7 @@ establecemos el tamanio de nuestro sitio web
      text-align: center;
 }
 
+/* centramos las imagenes dandole la forma circular/ */
 .item img{
      margin: 0px auto;
      width: 50px;
@@ -159,6 +167,7 @@ establecemos el tamanio de nuestro sitio web
      border-radius: 100%;
 }
 
+/* las palabras le damos un color blanco centrandolo y con margenes */
 .web{
      position: absolute;
      margin-top:70px;
@@ -169,6 +178,8 @@ establecemos el tamanio de nuestro sitio web
 
 /* portafolio */
 
+
+/* en esta seccion de portafolio le asignamos el tipo de letra, tamanio, fuente y lo centramos */
 .portafolio{
      text-align: center;
      padding-top: 42px;
@@ -182,26 +193,32 @@ establecemos el tamanio de nuestro sitio web
      color: #FFFFFF;
 }
 
+
+/* las imagenes tendran una separacion para poder ser ubicadas */
 .items_img{
       margin:0px 90px;
 }
 
+
+/*  */
 .items_img img{
      margin-top: 46px;
      position: relative;
      width: 140px;
      height: 92px;
-     margin-right:11px
+     margin-right:11px;
 }
 
 /* clientes */
 
+
+/* le damos una tamanio de esta seccion clientes y un color de fondo */
 .clients{
      height: 258px;
-     /* position: absolute; */
      background: #3F4E62;
 }
 
+/* alineamos nuestro imagenes de nuestros clientes con un margin de separacion  */
 .items_cli{
      float: left;
      margin-left: 70px;
@@ -213,15 +230,18 @@ establecemos el tamanio de nuestro sitio web
 
 /* contacto */
 
+/* en esta seccion de contacto le damos su tamanio y color de fondo  */
 .contact{
      height: 578px;
      background: #16A085;
 }
 
+/* ubicacaion del formulario */
 .form{
      margin:0px  100px;
 }
 
+/* le damos las carcteristicas a nuestros input de text  emaily tamanio de fondo */
 input[type="text"],input[type="email"]{
      width: 363px;
      position: relative;
@@ -239,7 +259,7 @@ textarea{
      margin-top:33px;
 
 }
-
+/* caracteristicas a nuestro boton de submit */
 button {
      background-color: #233451;
      display: block;
