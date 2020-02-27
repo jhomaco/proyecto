@@ -1,0 +1,256 @@
+/* buen dia profesor espero que pueda entender este codigo gracias */
+
+/* reseteamos todos los margenes como internos y externos */
+*{
+     padding: 0;
+     margin: 0;
+}  
+
+/* dandole un color de fondo a la pagina */
+body{
+     background: rgb(173, 83, 83);
+}
+
+establecemos el tamanio de nuestro sitio web 
+.container{
+     width: 960px;
+     margin: 10px auto;   
+     background: #7299FE; 
+}
+.banner{
+     height: 525px;
+     margin: 0px auto;
+}
+
+.codigo{
+     margin-left: 6em;
+     margin-top: 36px;
+     position: absolute;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 64px;
+     line-height: 75px;
+     color: #FFFFFF;
+}
+
+.subtitulo{
+     position: absolute;
+     width: 340px;
+     top: 270px; 
+     padding: 10px;
+     margin-left: 52px;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+      font-size: 30px; 
+     line-height: 42px; 
+     color: #FFFFFF;
+     background: rgba(114, 153, 254, 0.5);
+} 
+
+/* habilidades */
+
+.skills{
+     height: 424px;
+     margin: 0px auto;   
+     background: #7299FE; 
+}
+ h2{
+     text-align: center;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 36px;
+     line-height: 42px;
+     color: #FFFFFF;
+     padding: 27px;
+}
+.bar_title {
+     margin-left: 104px;
+     display: inline-flex;
+     margin-bottom: 50px;
+}
+
+.bar{
+     position: absolute;
+     width: 364px;
+     height: 17px;
+     /* margin-left: 104px; */
+     margin-top: 30px;
+     /*left: 104px;
+     top: 650px; */
+     /* display: inline-flex; */
+     background: white;
+}
+
+.bar_title h3{
+     width: 300px;
+     color: white;
+}
+
+.html{
+     width: 268px;
+     height: 17px;
+     background-color: black;
+}
+
+.java{
+     width: 237px;
+     height: 17px;
+     background-color: black;
+}
+
+.css{
+     width: 210px;
+     height: 17px;
+     background-color: black;
+}
+
+.react{
+     width: 122px;
+     height: 17px;
+     background-color: black;
+}
+.angular{
+     width: 137px;
+     height: 17px;
+     background-color: black;
+}
+
+.python{
+     width: 182px;
+     height: 17px;
+     background-color: black;
+}
+
+.figma{
+     width: 182px;
+     height: 17px;
+     background-color: black;
+}
+
+.node{
+     width: 151px;
+     height: 17px;
+     background-color: black;
+}
+/* servicios */
+
+.servicios{
+     background:#FB7171;
+     height: 424px;
+     /* margin: 0px auto; */
+     position;
+}
+
+.item{
+     height: 70px;
+     width: 250px;
+     margin:20px;
+     display: inline-flex;
+     text-align: center;
+}
+
+.item img{
+     margin: 0px auto;
+     width: 50px;
+     height: 50px;
+     border-radius: 100%;
+}
+
+.web{
+     position: absolute;
+     margin-top:70px;
+     margin-left: 75px;
+     text-align: center;
+     color: white;
+}
+
+/* portafolio */
+
+.portafolio{
+     text-align: center;
+     padding-top: 42px;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 36px;
+     line-height: 42px;
+     background:#FFD233;;
+     height: 424px;
+     color: #FFFFFF;
+}
+
+.items_img{
+      margin:0px 90px;
+}
+
+.items_img img{
+     margin-top: 46px;
+     position: relative;
+     width: 140px;
+     height: 92px;
+     margin-right:11px
+}
+
+/* clientes */
+
+.clients{
+     height: 258px;
+     /* position: absolute; */
+     background: #3F4E62;
+}
+
+.items_cli{
+     float: left;
+     margin-left: 70px;
+}
+
+.items_cli img{
+     margin-right: 24px;
+}
+
+/* contacto */
+
+.contact{
+     height: 578px;
+     background: #16A085;
+}
+
+.form{
+     margin:0px  100px;
+}
+
+input[type="text"],input[type="email"]{
+     width: 363px;
+     position: relative;
+     height: 59px;
+     margin-top: 33px;
+}
+
+.apellido, .fono{
+     float: right;
+}
+textarea{
+     width: 759px;
+     height: 112px;
+     resize: none;
+     margin-top:33px;
+
+}
+
+button {
+     background-color: #233451;
+     display: block;
+     margin: 0px auto;
+     width: 167px;
+     height: 56px;
+     margin-top: 45px;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 18px;
+     line-height: 21px;
+     color: #FFFFFF;
+}
